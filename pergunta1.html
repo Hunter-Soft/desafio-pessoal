@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pergunta número 1</title>
+    <link rel="stylesheet" href="style.css">
+    
+    </style>
+</head>
+
+<body class="fundo1" style="background: url('img/fundo1.jpg');">
+    <div class="fundoBranco"></div>
+    <main class="mainMargin">
+
+        <div class="pergunta">
+            <h1>NIVEL FACIL</h1>
+            <p>Qual o nome desse pedo..... digo personagem heh ?</p>
+        </div>
+
+        <div class="alinhamento">
+            <div class="imagemBoneco">
+                <img src="img/hisoka.png" alt="">
+            </div>
+            <div class="respostas">
+                <div class="opcoes"><a href="pergunta2.html">Hisoka</a></div>
+                <div class="opcoes"><a onclick=" openModalFalse() ">Kurapika</a></div>
+                <div class="opcoes"><a onclick=" openModalFalse() ">Leorio</a></div>
+                <div class="opcoes"><a onclick=" openModalFalse() ">Morel</a></div>
+            </div>
+        </div>
+
+        <div class="modal" id="modalFalse" style="background: #A65959;">
+
+            <div class="container-modal">
+                <h1>VOCE ERROU</h1>
+                <img src="img/gon.jpeg">
+                <h1>SEU INÚTIL</h1>
+
+                <a href="pergunta1.html" id="botao">>Voltar pro inicio</a>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
